@@ -1,0 +1,132 @@
+$card-news-hover-height: 255px;
+$card-news-resting-height: $card-news-hover-height - 60; // 195
+$card-category-height: 35px;
+
+.hc-card {
+	@extend .thumbnail;
+
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background-color: #fff;
+
+	.hc-card-image {
+		@include gradient-background-info;
+	}
+
+	.hc-card-title {
+		color: $brand-primary;
+		font-weight: 600;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+		max-height: 2.25em; // n lines + 0.25
+	}
+
+	.caption {
+		position: relative;
+		margin-bottom: 15px;
+		height: $card-news-hover-height - $card-category-height;
+
+		@media (min-width: $screen-md-min) {
+			height: $card-news-resting-height - $card-category-height;
+		}
+	}
+
+	.caption-category {
+		display: inline-block;
+		padding: 5px 10px;
+		color: #fff;
+		white-space: nowrap;
+	}
+
+	.btn-hc-event {
+		@extend .btn-sm;
+		font-size: 13px;
+	}
+
+	&.hc-card-news {
+		.caption-category {
+			background: $brand-info;
+			background: rgba($brand-info, .85);
+		}
+	}
+
+	&.hc-card-event {
+		.caption-category {
+			background: $brand-secondary;
+			background: rgba($brand-secondary, .85);
+		}
+	}
+
+	.caption-slider {
+		overflow: hidden;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: $card-news-hover-height;
+
+		@media (min-width: $screen-md-min) {
+			height: $card-news-resting-height;
+		}
+
+		-webkit-transition: height 500ms; /* For Safari 3.1 to 6.0 */
+		transition: height 500ms;
+	}
+
+	@media (min-width: $screen-md-min) {
+		&:hover {
+			.caption-slider {
+				height: $card-news-hover-height;
+			}
+		}
+	}
+
+	.caption-body {
+		background-color: #fff;
+		padding: 5px 10px;
+		margin-bottom: 10px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+
+		height: $card-news-resting-height - 38;
+		-webkit-transition: height 500ms; /* For Safari 3.1 to 6.0 */
+		transition: height 500ms;
+
+	}
+
+	footer {
+		padding: 0 10px 5px;
+		color: $gray-light;
+	}
+
+}
+
+// flickity - carousel
+.hc-flickity-gallery {
+	&:after {
+		content: 'flickity';
+		display: none;
+		@media (min-width: $screen-sm-min) { content: ''; }
+	}
+
+	.flickity-viewport {
+		margin-bottom: 25px;
+	}
+
+	.flickity-page-dots {
+		bottom: -10px;
+
+		li.dot {
+			background: none;
+			border: 2px solid $brand-info;
+			width: 15px;
+			height: 15px;
+			&.is-selected {
+				background: $brand-info;
+			}
+		}
+	}
+}

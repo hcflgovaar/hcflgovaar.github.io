@@ -1,0 +1,132 @@
+#hc-map-home {
+	height: 350px;
+}
+
+.hc-map-v2 {
+
+	@extend .embed-responsive-item;
+
+	.leaflet-top.leaflet-left {
+		@media (max-width: $screen-xs-max) {
+			bottom: 10px;
+			top: auto;
+		}
+	}
+
+	.leaflet-popup {
+		margin-left: 10px;
+	}
+
+	.leaflet-popup-content-wrapper, .leaflet-popup-content {
+		min-width: 300px;
+		padding: 0;
+		margin: 0;
+		border-radius: $border-radius-base;
+		a.btn {
+			color: $brand-primary;
+			&:hover { color: #fff; }
+		}
+	}
+
+	.leaflet-popup-close-button {
+		color: #fff !important;
+		top: 8px !important;
+		right: 5px !important;
+	}
+
+	.popover-title {
+		background: $brand-success;
+		color: #fff;
+		padding: 10px 40px 10px 10px;
+	}
+}
+
+#hc-map-overlay {
+
+	#hc-map-overlay-btn {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		z-index: 500;
+		margin: 0 0;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		left: 10px;
+	}
+
+	@media (min-width: $screen-sm-min) {
+		min-width: 310px;
+	}
+
+	.panel-heading {
+		display: block;
+		background: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: $brand-secondary;
+		padding-right: 50px;
+
+		&::after {
+			content: '';
+			color: $brand-primary;
+			position: absolute;
+			right: 20px;
+			top: 10px;
+		}
+		&.collapsed::after {
+			content: '';
+		}
+
+	}
+}
+
+#map-overlay-toggles {
+
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+
+	-webkit-column-gap: 4px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 4px; /* Firefox */
+	column-gap: 4px;
+
+	> a.map-overlay-toggle {
+		display: block;
+		background: #f4f7f8;
+		padding: 10px;
+		border-bottom: 2px solid #fff;
+		border-top: 2px solid #fff;
+		text-decoration: none;
+
+		&.active {
+			background-color: lighten($brand-info, 25%);
+		}
+
+		-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+		page-break-inside: avoid; /* Firefox */
+		break-inside: avoid; /* IE 10+ */
+	}
+}
+
+// map icons
+.hc-map-icon {
+	font-family: FontAwesome;
+	display: inline-block;
+	width: 30px !important;
+	height: 30px !important;
+	left: -10px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 2px;
+	border: 1px solid #fff;
+	font-size: 16px;
+	color: #fff;
+}
+
+.map-overlay-toggle {
+	.hc-map-icon {
+		padding-top: 3px;
+	}
+}

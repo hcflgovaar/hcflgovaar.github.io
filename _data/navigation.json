@@ -1,0 +1,296 @@
+{
+   "root_url":"http://hcflgov.net",
+   "header":{
+      "logo_src":"/library/hillsborough/system/logos/hc-logo-horizontal-rgb.png",
+      "navigation":[
+         {
+            "title":"Residents",
+            "url":"#",
+            "subitems":[
+               {
+                  "title":"Animals & Pets",
+                  "url":"/residents/animals-and-pets",
+                  "blank_target":false
+               },
+               {
+                  "title":"Citizens",
+                  "url":"/residents/citizens",
+                  "blank_target":false
+               },
+               {
+                  "title":"Families",
+                  "url":"/residents/families",
+                  "blank_target":false
+               },
+               {
+                  "title":"Property Owners & Renters",
+                  "url":"/residents/property-owners-and-renters",
+                  "blank_target":false
+               },
+               {
+                  "title":"Public Safety",
+                  "url":"/residents/public-safety",
+                  "blank_target":false
+               },
+               {
+                  "title":"Recreation & Culture",
+                  "url":"/residents/recreation-and-culture",
+                  "blank_target":false
+               },
+               {
+                  "title":"Social Services",
+                  "url":"/residents/social-services",
+                  "blank_target":false
+               },
+               {
+                  "title":"Sustainability & Green",
+                  "url":"/residents/sustainability-and-green",
+                  "blank_target":false
+               }
+            ],
+            "featured":""
+         },
+         {
+            "title":"Businesses",
+            "url":"#",
+            "subitems":[
+               {
+                  "title":"Business Community",
+                  "url":"/businesses/business-community",
+                  "blank_target":false
+               },
+               {
+                  "title":"Entrepreneur &amp; Small Business Support",
+                  "url":"/businesses/entrepreneur-and-small-business-support",
+                  "blank_target":false
+               },
+               {
+                  "title":"Doing Business With Hillsborough",
+                  "url":"/businesses/doing-business-with-hillsborough",
+                  "blank_target":false
+               },
+               {
+                  "title":"Economic Development",
+                  "url":"/businesses/economic-development",
+                  "blank_target":false
+               },
+               {
+                  "title":"Land Development",
+                  "url":"/businesses/land-development",
+                  "blank_target":false
+               },
+               {
+                  "title":"Permits &amp; Records",
+                  "url":"/businesses/permits-and-records",
+                  "blank_target":false
+               },
+               {
+                  "title":"Zoning",
+                  "url":"/businesses/zoning",
+                  "blank_target":false
+               }
+            ],
+            "featured":""
+         },
+         {
+            "title":"Government",
+            "url":"#",
+            "subitems":[
+               {
+                  "title":"Agencies",
+                  "url":"/government/agencies",
+                  "blank_target":false
+               },
+               {
+                  "title":"Board of County Commissioners",
+                  "url":"/government/board-of-county-commissioners",
+                  "blank_target":false
+               },
+               {
+                  "title":"Boards and Committees",
+                  "url":"/government/boards-and-committees",
+                  "blank_target":false
+               },
+               {
+                  "title":"Management &amp; Budget",
+                  "url":"/government/budget",
+                  "blank_target":false
+               },
+               {
+                  "title":"Codes and Ordinances",
+                  "url":"/government/codes-and-ordinances",
+                  "blank_target":false
+               },
+               {
+                  "title":"County Projects",
+                  "url":"/government/county-projects",
+                  "blank_target":false
+               },
+               {
+                  "title":"Departments",
+                  "url":"/government/departments",
+                  "blank_target":false
+               },
+               {
+                  "title":"Grants",
+                  "url":"/government/grants",
+                  "blank_target":false
+               },
+               {
+                  "title":"Leadership",
+                  "url":"/government/leadership",
+                  "blank_target":false
+               },
+               {
+                  "title":"Meeting Information",
+                  "url":"/government/meeting-information",
+                  "blank_target":false
+               },
+               {
+                  "title":"Special Districts",
+                  "url":"/government/budget/special-districts",
+                  "blank_target":false
+               }
+            ],
+            "featured":""
+         },
+         {
+            "title":"About Hillsborough",
+            "url":"#",
+            "subitems":[
+               {
+                  "title":"Calendar",
+                  "url":"/calendar",
+                  "blank_target":false
+               },
+               {
+                  "title":"Charter",
+                  "url":"/about-hillsborough/charter",
+                  "blank_target":false
+               },
+               {
+                  "title":"Community Calendar",
+                  "url":"/residents/property-owners-and-renters/homeowners-and-neighborhoods/community-calendar",
+                  "blank_target":false
+               },
+               {
+                  "title":"Contact Us",
+                  "url":"/about-hillsborough/contact-us",
+                  "blank_target":false
+               },
+               {
+                  "title":"History",
+                  "url":"/about-hillsborough/history",
+                  "blank_target":false
+               },
+               {
+                  "title":"Jobs",
+                  "url":"/about-hillsborough/jobs",
+                  "blank_target":false
+               },
+               {
+                  "title":"RSS Feeds",
+                  "url":"/about-hillsborough/rss-feeds",
+                  "blank_target":false
+               }
+            ],
+            "featured":""
+         }
+      ],
+      "i_want_tos":[
+         {
+            "title":"Apply",
+            "subtitle":"Permits, Licenses...",
+            "url":"/i-want-to/apply",
+            "image_src":"/library/hillsborough/site-images/icons/iconapply3x.png"
+         },
+         {
+            "title":"Register",
+            "subtitle":"Animals, Permits, Water...",
+            "url":"/i-want-to/register",
+            "image_src":"/library/hillsborough/site-images/icons/iconregister3x.png"
+         },
+         {
+            "title":"Report",
+            "subtitle":"Violations, Repairs, Animals",
+            "url":"/i-want-to/report",
+            "image_src":"/library/hillsborough/site-images/icons/iconreport3x.png"
+         },
+         {
+            "title":"Request",
+            "subtitle":"Animals, Permits, Water",
+            "url":"/i-want-to/request",
+            "image_src":"/library/hillsborough/site-images/icons/iconrequest3x.png"
+         },
+         {
+            "title":"Pay",
+            "subtitle":"Bills, Fees, Taxes...",
+            "url":"/i-want-to/pay",
+            "image_src":"/library/hillsborough/site-images/icons/iconpay3x.png"
+         }
+      ]
+   },
+   "footer":{
+      "logo_src":"/library/hillsborough/system/logos/hc-logo-horizontal-rgb_drkbgrd.png",
+      "navigation":[
+         {
+            "title":"Board of County Commissioners",
+            "url":"/government/board-of-county-commissioners",
+            "blank_target":false
+         },
+         {
+            "title":"Contact Us",
+            "url":"/about-hillsborough/contact-us",
+            "blank_target":false
+         },
+         {
+            "title":"County Locations",
+            "url":"/residents/citizens/county-locations",
+            "blank_target":false
+         },
+         {
+            "title":"Jobs",
+            "url":"/about-hillsborough/jobs",
+            "blank_target":false
+         }
+      ],
+      "social":[
+         {
+            "title":"Facebook",
+            "url":"https://www.facebook.com/HillsboroughFL/",
+            "blank_target":true,
+            "image_src":"/library/hillsborough/system/social/iconfb3x.png"
+         },
+         {
+            "title":"Twitter",
+            "url":"https://twitter.com/HillsboroughFL",
+            "blank_target":true,
+            "image_src":"/library/hillsborough/system/social/icont3x.png"
+         },
+         {
+            "title":"YouTube",
+            "url":"https://www.youtube.com/user/HillsboroughCounty",
+            "blank_target":true,
+            "image_src":"/library/hillsborough/system/social/iconyt3x.png"
+         },
+         {
+            "title":"Instagram",
+            "url":"https://www.instagram.com",
+            "blank_target":true,
+            "image_src":"/library/hillsborough/system/social/iconi3x.png"
+         },
+         {
+            "title":"LinkedIn",
+            "url":"http://www.linkedin.com",
+            "blank_target":true,
+            "image_src":"/library/hillsborough/system/social/iconli3x.png"
+         },
+         {
+            "title":"Pinterest",
+            "url":"https://www.pinterest.com",
+            "blank_target":true,
+            "image_src":"/library/hillsborough/system/social/iconp3x.png"
+         }
+      ]
+   }
+}

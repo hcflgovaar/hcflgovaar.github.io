@@ -1,0 +1,60 @@
+---
+layout: sidebar
+title: Animal Abuser Registry
+back: Public Safety
+back_link: http://hcflgov.net/en/residents/public-safety
+sidebar: sidebar-animal-abusers.html
+---
+
+<h2 class="text-primary">
+	Search the Animal Abuser Registry
+</h2>
+
+<!-- disclaimer -->
+<div class="well">
+	<h4 class="">Disclaimer</h4>
+	<p>
+		The County will attempt to ensure that the information in the Registry is accurate and complete. However, the County relies on other sources for the information. As a result, the County makes no express or implied guarantee concerning the accuracy or completeness of any of the data in the Registry.
+	</p>
+	<p>
+		The information in this Registry must be used responsibly. Anyone who uses this information to knowingly harass or interfere with lawful commerce shall commit a violation of this Ordinance punishable as provided therein.
+	</p>
+</div>
+
+<!-- filters -->
+<form class="" method="get">
+	<div class="row">
+		<div class="col-md-5">
+			<div class="form-group">
+				<input id="search-animalabusers" name="q" type="text" class="form-control input-sm" placeholder="Search Registry">
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="form-group">
+				<select id="sort-animalabusers" name="s" class="form-control input-sm">
+					<option value="" disabled selected>Sort By...</option>
+					<option value="name">Name</option>
+					<option value="dob_at">Date of Birth</option>
+					<option value="address">Address</option>
+				</select>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group text-center">
+				<button class="btn btn-primary btn-sm" type="submit">Filter</button>
+				<button type="reset" class="btn btn-default btn-sm">Reset</button>
+			</div>
+		</div>
+	</div>
+</form>
+
+<!-- ABUSERS -->
+<div class="panel panel-default">
+	<div id="animalabusers" data-template-dir="{{ '/templates' | prepend: site.baseurl }}">
+		<div class="panel-body">
+			<p class="text-center h4">
+				No Results
+			</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<header class="jumbotron jumbotron-sm">
+	<div class="container">
+		<div class="row">
+			<div class="hc-jumbo-separator col-sm-8 col-md-9 {% if page.back %}col-sm-push-4 col-md-push-3{% endif %}">
+				{% unless page.hide_title_in_jumbo %}
+				<h2 class="text-center-xs">{{ page.title }}</h2>
+				{% endunless %}
+			</div>
+			{% if page.back %}
+			<div class="col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
+				<h3 class="h5 text-center">
+					{% if page.back_link %}
+					<a href="{{ page.back_link }}">
+					{% else %}
+					<a href="{{ '/layouts/l2/' | prepend: site.baseurl }}">
+					{% endif %}
+						<i class="fa fa-fw fa-angle-left"></i>
+						{{ page.back }}
+					</a>
+				</h3>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</header>
+
+<div class="container">
+	<div class="row">
+		<aside class="col-sm-4 col-md-3">
+			{% if page.sidebar %}
+			{% include {{page.sidebar}} %}
+			{% else %}
+			{% include sidebar-default.html %}
+			{% endif %}
+		</aside>
+		<div class="col-sm-8 col-md-9">
+			{{ content }}
+		</div>
+	</div>
+</div>

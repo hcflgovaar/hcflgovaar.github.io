@@ -1,0 +1,11 @@
+.hc-header-alert {
+	color: #fff;
+	background: $brand-danger;
+	margin-bottom: 0;
+	border-radius: 0;
+	border-bottom: solid 1px $brand-secondary;
+	.close {
+		&:hover { color: #fff; }
+	}
+	a { color: #fff; }
+}

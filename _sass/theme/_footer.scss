@@ -1,0 +1,49 @@
+// footer
+#hc-footer {
+
+	background: #fff;
+
+	#footer-main {
+
+		@include gradient-background-secondary;
+
+		padding-top: 30px;
+		color: #fff;
+
+		a {
+			color: #fff;
+			text-decoration: none;
+			&:hover {
+				color: $brand-info;
+			}
+		}
+	}
+
+	// > #hc-footer-row .col-sm-4 {
+	// 	padding: 10px 15px;
+	// }
+
+	@media (min-width: $screen-sm-min) {
+		// display: table;
+		// width: 100%;
+		// #hc-footer-row {
+		// 	display: table-row;
+		// 	width: 100%;
+		// 	.col-sm-4 {
+		// 		float: none;
+		// 		display: table-cell;
+		// 		vertical-align: middle;
+		// 	}
+		// }
+	}
+}
+
+#footer-logo {
+	max-width: 150px;
+}
+
+#footer-social {
+	img {
+		max-width: 25px;
+	}
+}
