@@ -2,9 +2,10 @@
 js:
   - src: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
     remote: true
-  - src: bootstrap-3.3.6.min.js
-  # - src: jquery.mobile.touch.min.js
+  - src: vendor/bootstrap-3.3.6.min.js
+  - src: vendor/underscore.min.js
   - src: theme.js
+  - src: navigation.js
   - src: animalabusers.js
 
 # will load from "{{site.baseurl}}/css/{{asset.src}}.css"

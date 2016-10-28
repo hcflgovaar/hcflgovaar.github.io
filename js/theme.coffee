@@ -40,13 +40,15 @@ $ ->
 		return
 
 	# nav spacer animation
-	$('#hc-main-nav-sections > li').hover (->
-		$elem = $(this).find('.hc-nav-dropdown')
-		$('#navSpacer').stop().animate { height: $elem.outerHeight(true) }, 500 unless $('#hc-main-nav-collapse').hasClass('in')
-		return
-	), ->
-		$('#navSpacer').finish().animate { height: 0 }, 500
-		return
+	$(document).on {
+		mouseenter: ->
+			$elem = $(this).find('.hc-nav-dropdown')
+			$('#navSpacer').stop().animate { height: $elem.outerHeight(true) }, 500 unless $('#hc-main-nav-collapse').hasClass('in')
+			return
+		mouseleave: ->
+			$('#navSpacer').finish().animate { height: 0 }, 500
+			return
+	}, '#hc-main-nav-sections > li'
 
 	# affix template
 	$(window).on 'load resize', ->
