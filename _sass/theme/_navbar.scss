@@ -47,13 +47,14 @@
 	}
 
 	.navbar-image img {
+		max-width: 215px;
 		margin-top: 10px;
 		@media (max-width: $screen-xs-max) {
 			padding-left: 15px;
 		}
 		@media (max-width: $screen-sm-max) {
 			margin-top: 20px;
-			width: 160px;
+			width: 155px;
 		}
 	}
 
@@ -238,9 +239,14 @@ li#nav-i-want-to {
 		}
 
 		img.media-object {
-			width: 3.5vw;
-			height: 3.5vw;
-			max-width: 50px;
+			// width: 3.5vw;
+			// height: 3.5vw;
+			max-width: 40px;
+			max-height: 40px;
+			@media (min-width: $screen-md-min) {
+				max-width: 50px;
+				max-height: 50px;
+			}
 		}
 
 		.media-heading {
